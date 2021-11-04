@@ -63,7 +63,7 @@ const Form = () => {
 		})
 	}
 	return (
-		<div className="p-4 form-wrap">
+		<div className="p-4 form-wrap shadow-md">
 			{sucess && <p className="text-green-500 text-base font-bold mb-2">{sucess}</p>}
 			{error && <p className="text-red-500 text-base font-bold mb-2">{error}</p>}
 			<form onSubmit={handleSubmit}>

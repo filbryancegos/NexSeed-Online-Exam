@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import styled from 'styled-components'
-import HomeBg from '../images/home.jpg'
+import HomeBg from '../images/book.png'
 import Title from '../components/Title'
 import TimePicker from 'react-time-picker'
 
@@ -100,8 +100,7 @@ const Book = () => {
 
 export default Book
 const HeroContainer = styled.div`
-background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
-url(${HomeBg});
+background: url(${HomeBg});
 min-height: 100vh;
 backround-position: center;
 background-size: cover;

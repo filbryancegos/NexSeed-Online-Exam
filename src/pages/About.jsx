@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import HomeBg from '../images/home.jpg'
+import HomeBg from '../images/about.png'
 import Title from '../components/Title'
 import Image from '../images/Takahara.jpg'
 import '../css/About.css'
@@ -44,8 +44,7 @@ export default About
 
 
 const HeroContainer = styled.div`
-background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
-url(${HomeBg});
+background: url(${HomeBg});
 min-height: 100vh;
 backround-position: center;
 background-size: cover;
