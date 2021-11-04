@@ -1,5 +1,14 @@
 # Getting Started with Create React App
 
+# Clone The repository
+git clone https://github.com/filbryancegos/NexSeed-Online-Exam.git
+
+# Install Dependencies
+npm install
+
+# Start or Run project
+npm start
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
