@@ -1,0 +1,21 @@
+.float-image {
+	float: left;
+	position: relative;
+	top: -100px;
+	left: -100px;
+	width: 300px;
+	box-shadow: 6px 10px 5px 2px rgba(0,0,0,0.41);
+	-webkit-box-shadow: 6px 10px 5px 2px rgba(0,0,0,0.41);
+	-moz-box-shadow: 6px 10px 5px 2px rgba(0,0,0,0.41);
+}
+
+@media only screen and (max-width: 600px) {
+	.float-image {
+		float: inherit;
+		position: inherit;
+		top: inherit;
+		left: inherit;
+		width: 50%;
+		margin: 0 auto;
+	}
+}

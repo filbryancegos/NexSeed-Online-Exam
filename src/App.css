@@ -1,3 +1,4 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 .App {
   text-align: center;
 }
@@ -35,4 +36,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.h-min-screen {
+	min-height: 100vh;
+}
+
+.title-bg {
+	background-color: #013f70;
+}
+.title-book {
+	background-color: #0667b4;
+}
+
+.form-wrap {
+	background-color: #fffa9f;
 }
